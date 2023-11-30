@@ -19,11 +19,8 @@ h4 {
 h5 {
   font-size: 1.6rem;
 }
-.whyToChooseWrapper {
-  background: linear-gradient(180deg, $lightBlue 0%, $secondaryColor 100%);
-}
 p {
-  @include montserrat();
+  @include poppins();
 }
 .mt-10 {
   margin-top: 1rem;
@@ -54,10 +51,6 @@ p {
 .text-right {
   text-align: right;
   justify-content: flex-end;
-}
-.css-1wc848c-MuiFormHelperText-root {
-  font-size: 1.1rem !important;
-  margin-left: 0 !important;
 }
 .error {
   font-size: 1.1rem !important;

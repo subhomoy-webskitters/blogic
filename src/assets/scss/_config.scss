@@ -1,22 +1,17 @@
-@import url("https://use.typekit.net/ixa0tdg.css");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-// font-family: "nasalization", sans-serif;
-// font-family: 'Montserrat', sans-serif;
+// font-family: 'Poppins', sans-serif;
 
 /*======================================= Variables
 ===============================================================*/
 // color
 $blackColor: #000;
 $whiteColor: #fff;
-$primaryColor: #e28539;
-$primaryColor1: #f5a25d;
-$secondaryColor: #002147;
-$lightBlue: #003879;
-$inputBorderColor: #ededed;
-$placeholderColor: #333;
-$textColor: #717171;
-$footerColor: #0a0a23;
+$primaryColor: #018aff;
+$secondaryColor: #15609f;
+$inputBorderColor: rgba(112, 112, 112, 0.41);
+$placeholderColor: #c5c4c4;
+$textColor: #707070;
 $errorColor: #d32f2f;
 
 // font-weight
@@ -76,11 +71,8 @@ $belowmobile: 575px;
 
 // Font Mixing
 
-@mixin nasalization {
-  font-family: "nasalization", sans-serif !important;
-}
-@mixin montserrat {
-  font-family: "Montserrat", sans-serif !important;
+@mixin poppins {
+  font-family: "Poppins", sans-serif !important;
 }
 
 // Clearfix
@@ -286,7 +278,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  @include montserrat;
+  @include poppins();
   font-weight: weight(regular);
   font-size: 1.4rem;
   color: $textColor;
@@ -373,7 +365,7 @@ h3,
 h4,
 h5,
 h6 {
-  @include nasalization();
+  @include poppins();
   padding: 0;
   margin: 0 0 20px 0;
   @include font-weight(bold);
